@@ -82,7 +82,7 @@ TIME_SLEEP = 30  # seconds
 
 # If True, an updated list of coins will be generated from the site - http://edgesforledges.com/watchlists/binance.
 # If False, then the list you create in TICKERS_LIST = 'tickers.txt' will be used.
-CREATE_TICKER_LIST = True
+CREATE_TICKER_LIST = False
 
 # NUMBER_COINS_IN_LIST - Limit the number of coins that can be added to the dynamic list of volatile coins. For example,
 # if NUMBER_COINS_IN_LIST = 20,

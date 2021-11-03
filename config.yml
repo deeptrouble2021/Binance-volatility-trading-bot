@@ -103,5 +103,5 @@ trading_options:
     # - os_signalsell_RECOMM
     - os_signalbuy_3SMAv2
 #    - os_pausebot_MAv2
-#    - vyacheslav_signalbuy_VolScan
-    - Volscan
+    - vyacheslav_signalbuy_VolScan
+#    - Volscan
