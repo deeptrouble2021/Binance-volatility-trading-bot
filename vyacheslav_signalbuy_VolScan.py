@@ -82,15 +82,15 @@ TIME_SLEEP = 30  # seconds
 
 # If True, an updated list of coins will be generated from the site - http://edgesforledges.com/watchlists/binance.
 # If False, then the list you create in TICKERS_LIST = 'tickers.txt' will be used.
-CREATE_TICKER_LIST = False
+CREATE_TICKER_LIST = True
 
 # NUMBER_COINS_IN_LIST - Limit the number of coins that can be added to the dynamic list of volatile coins. For example,
 # if NUMBER_COINS_IN_LIST = 20,
 # then each period only 20 sorted coins will be added to the list (Above the lowest values with a minus sign).
-NUMBER_COINS_IN_LIST = 20
+NUMBER_COINS_IN_LIST = 40
 
 # CV_INDEX - Coefficient of Variation. Only those coins with a COV greater than the specified value will be displayed.
-CoV_INDEX = 0.0
+CoV_INDEX = 1
 
 # CREATE_LIST_BY_COV_AND_PRICE_CHANGE is a filter for creating dynamic lists of the most volatile coins.
 # If COV_FILTER = True, lists of volatile coins will take into account the CoV parameter.
